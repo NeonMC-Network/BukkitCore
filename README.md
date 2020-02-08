@@ -1,1 +1,1 @@
-# NeonBukkitCore
+# BukkitCore
