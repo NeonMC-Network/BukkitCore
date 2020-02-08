@@ -1,0 +1,16 @@
+me\naptie\bukkit\core\Permissions.class
+me\naptie\bukkit\core\commands\Connect.class
+me\naptie\bukkit\core\commands\Teleport.class
+me\naptie\bukkit\core\commands\UnloadWorld.class
+me\naptie\bukkit\core\Main.class
+me\naptie\bukkit\core\utils\CU.class
+me\naptie\bukkit\core\commands\Help.class
+me\naptie\bukkit\core\utils\CoreStorage.class
+me\naptie\bukkit\core\Main$1.class
+me\naptie\bukkit\core\commands\LoadWorld.class
+me\naptie\bukkit\core\listeners\EventListener.class
+me\naptie\bukkit\core\commands\EditInventory.class
+me\naptie\bukkit\core\utils\TablistUtils.class
+me\naptie\bukkit\core\listeners\PluginListener.class
+me\naptie\bukkit\core\Messages.class
+me\naptie\bukkit\core\commands\Ping.class

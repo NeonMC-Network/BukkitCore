@@ -1,0 +1,66 @@
+languages:
+  - en-GB
+  - en-US
+  - zh-CN
+update-language-files: true
+
+servers:
+  300: lobby
+  301: skywars
+  302: bedwars
+  303: thebridge
+  304: skyblock
+  305: survival
+  40: mini
+  41: mega
+  42: integration
+
+tab-list:
+  header:
+    en-GB:
+      - "&aYou are playing on &c&lNEONMC NETWORK"
+      - "&b%server% &7| &e%time%"
+      - "&8---------------------------------------"
+    en-US:
+      - "&aYou are playing on &c&lNEONMC NETWORK"
+      - "&b%server% &7| &e%time%"
+      - "&8---------------------------------------"
+    zh-CN:
+      - "&a您正在 &c&lNEONMC&r &a上游玩"
+      - "&b%server% &7| &e%time%"
+      - "&8-----------------------------"
+  footer:
+    en-GB:
+      - "&8---------------------------------------"
+      - "&aJoin us to develop the server together!"
+      - "&cNaptie's QQ Group: 345515864"
+    en-US:
+      - "&8---------------------------------------"
+      - "&aJoin us to develop the server together!"
+      - "&cNaptie's QQ Group: 345515864"
+    zh-CN:
+      - "&8-----------------------------"
+      - "&a加入我们， 共同开发服务器！"
+      - "&cNaptie QQ群： 345515864"
+  time-format:
+    en-GB: "HH:mm:ss, dd/MM/yyyy"
+    en-US: "HH:mm:ss, MM/dd/yyyy"
+    zh-CN: "yyyy/MM/dd， HH:mm:ss"
+
+  #               yyyy：年
+  #               MM：月
+  #               dd：日
+  #               hh：1~12小时制(1-12)
+  #               HH：24小时制(0-23)
+  #               mm：分
+  #               ss：秒
+  #               S：毫秒
+  #               E：星期几
+  #               D：一年中的第几天
+  #               F：一月中的第几个星期(会把这个月总共过的天数除以7)
+  #               w：一年中的第几个星期
+  #               W：一月中的第几星期(会根据实际情况来算)
+  #               a：上下午标识
+  #               k：和HH差不多，表示一天24小时制(1-24)。
+  #               K：和hh差不多，表示一天12小时制(0-11)。
+  #               z：表示时区

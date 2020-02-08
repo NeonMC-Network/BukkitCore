@@ -1,0 +1,46 @@
+main: me.naptie.bukkit.core.Main
+name: NeonBukkitCore
+version: 2.0.0
+api-version: "1.15"
+author: Naptie
+commands:
+  connect:
+    aliases: [c, server, bungeeconnect, connecttobungee]
+    description: To connect to another server.
+    usage: /<command> <server>
+  load:
+    aliases: [loadworld, worldloader, newworld]
+    description: To load a world.
+    usage: /<command> <world>
+  unload:
+    aliases: [unloadworld, worldunloader, deleteworld]
+    description: To unload a world.
+    usage: /<command> <world>
+  ping:
+    aliases: [lag]
+    description: To ping the server.
+    usage: /<command> [player]
+  teleporttolocation:
+    aliases: [tptolocation, teleporttoloc, tptoloc, tptl, ttl, teleportlocation, teleportloc, tplocation, tploc, tpl]
+    description: To teleport to a location.
+    usage: /<command> <world> [x] [y] [z]
+  editinventory:
+    aliases: [editinv, einventory, editi, ei, edititems, edititem]
+    description: To toggle inventory edit mode.
+    usage: /<command>
+permissions:
+  neonmc.world.load:
+    description: Allows players to load worlds.
+    default: op
+  neonmc.world.unload:
+    description: Allows players to unload worlds.
+    default: op
+  neonmc.player.teleport:
+    description: Allows players to teleport.
+    default: op
+  neonmc.player.inventory.edit:
+    description: Allows players to toggle inventory edit mode.
+    default: op
+  neonmc.detection.chat.bypass:
+    description: Allows players to bypass the chat detection.
+    default: false
